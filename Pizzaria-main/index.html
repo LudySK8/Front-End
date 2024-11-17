@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delícia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pizzaria Delícia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre nós</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/delicious-pizza-food.jpg" alt="Primeira Pizza">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/870852-pizza-wallpaper.jpg" alt="Segunda Pizza">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/pizza-food-mushroom-tomatoes-basil-Garlic-olives-1562211.jpg" alt="Terceira Pizza">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    
+
+    <section id="sobre" class="container">
+        <img src="./img/pizzaria.jpg" alt="">
+        <h2>Sobre a Pizzaria Delícia</h2>
+        <p>A Pizzaria Delícia é conhecida por suas pizzas deliciosas feitas com ingredientes frescos e de alta qualidade. Desde a sua inauguração, nossa missão é proporcionar aos nossos clientes uma experiência gastronômica única, onde cada mordida é uma explosão de sabor.</p>
+        <p>Nossa equipe dedicada está sempre empenhada em garantir que cada pizza seja preparada com amor e cuidado, seguindo as receitas tradicionais que nos tornaram famosos.</p>
+    </section>
+
+    <section id="menu" class="container">
+        <h2>Cardápio</h2>
+        <p>Confira nossa seleção de pizzas deliciosas:</p>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/sddefault.jpg" alt="Pizza de Calabresa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza de frango com catupiry</h5>
+                        <p class="card-text">Molho de tomate, parmesão ralado, catupiry, frango desfiado, milho verde e orégano.</p>
+                        <p class="card-text">Preço: R$ 32,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/pizza-margherita.jpg" alt="Pizza Margherita">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Margherita</h5>
+                        <p class="card-text">Molho de tomate, queijo mussarela, tomate, manjericão e azeitonas.</p>
+                        <p class="card-text">Preço: R$ 28,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/Pizza-4-queijos.jpg" alt="Pizza Quatro Queijos">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Quatro Queijos</h5>
+                        <p class="card-text">Molho de tomate, queijo mussarela, queijo gorgonzola, queijo parmesão e queijo provolone.</p>
+                        <p class="card-text">Preço: R$ 32,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/shutterstock-1021374436-1-.jpg" alt="Pizza de Pepperoni">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza de Pepperoni</h5>
+                        <p class="card-text">Molho de tomate, queijo mussarela, pepperoni e azeitonas.</p>
+                        <p class="card-text">Preço: R$ 34,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para pedidos ou mais informações:</p>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> Telefone: XXX-XXX-XXX-XXX</p>
+            <p><i class="fa fa-instagram"></i> Instagram: @oizzaria</p>
+            <p><i class="fa fa-envelope"></i> Email: contato@pizzariadelicia.com.br</p>
+        </div>
+        <hr>
+        <p class="pizzaria-name">Pizzaria Delícia</p>
+    </section>    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

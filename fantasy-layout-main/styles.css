@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Clash Grotesk";
+    height: 100vh;
+    background-color: #000;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bg,
+.bg-reveal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/dragons-dogma-2--21154.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.bg-reveal {
+    display: grid;
+    grid-auto-flow: column;
+    z-index: 10;
+}  
+
+.bg-reveal > div {
+    height: 100%;
+    background: url("./img/23904d563a8fc6dc1999d6eada602f91b1ea5a60.webp") repeat fixed;
+    background-size: 90%;
+    background-position: 50% 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 1.6s ease-in-out;
+}
+
+.bg-reveal > div:hover {
+    transition: 0s;
+    opacity: 1;
+}

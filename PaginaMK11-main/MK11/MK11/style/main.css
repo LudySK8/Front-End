@@ -1,0 +1,214 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background: var(--bg);
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 800px;
+    left: 1700px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(2) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(3) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 360px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 480px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(5) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(6) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(7) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 720px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(8) {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 840px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(9){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(10){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 5px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(11){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 360px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(12){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 480px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(13){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 600px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(14){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 720px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(15){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 838px;
+    left: 1780px;
+    cursor: pointer;
+}
+
+.circle-img:nth-child(16){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: 240px;
+    left: 1780px;
+}
+
+.circle-img:nth-child(17){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: 120px;
+    left: 1780px;
+}

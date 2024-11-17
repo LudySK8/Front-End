@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Tesla</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <img src="./img/logo.png" class="logo" />
+
+    <ul class="lista">
+        <li class="item">
+            <video src="./img/tesla.mp4" muted loop autoplay></video>
+
+            <div class="info-carro">
+                <h1>Model Y</h1>
+                <p class="sub-titulo">Lease starting at $399/mo*</p>
+            </div>
+
+            <div class="rodape">
+                <button onclick="aparecerFormulario()">Order Now</button>
+                <button class="test-drive">Demo Drive</button>
+                <p class="texto-rodape">*Excludes taxes and fees with price subject to change. Available in select
+                    states. See Details</p>
+            </div>
+        </li>
+        <li class="item">
+            <img src="img/model-s.png" class="img-tesla" />
+
+            <div class="info-carro">
+                <h1>Model 3</h1>
+                <p class="sub-titulo">Lease starting at $329/mo*</p>
+            </div>
+        </li>
+        <li class="item">
+            <img src="img/model-x.png" class="img-tesla" />
+
+            <div class="info-carro">
+                <h1>Model X</h1>
+                <p class="sub-titulo">From $68,590*</p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">Close</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241928094639064"></script>
+    </div>
+
+</body>
+
+<script src="script.js" ></script>
+
+</html>

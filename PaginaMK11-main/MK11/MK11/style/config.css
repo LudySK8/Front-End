@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    color: var(--c);
+    font-family: 'body';
+    line-height: 150%;
+    letter-spacing: 1.5px;
+}
+
+:root {
+    --bg: #202020;
+    --c: #fff;
+    --fog: linear-gradient(135deg, black, transparent);
+    --shadow: rgba(0, 0, 0, 0.5);
+    --shadowFar: rgba(0, 0, 0, 0.15);
+    --transition: .5s;
+}
+
+::-webkit-scrollbar {
+    background: rgba(0, 0, 0, 0.5);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'header';
+}
+
+@font-face {
+    font-family: 'body';
+    src: url(./fontes/ChaletComprime.ttf)
+}

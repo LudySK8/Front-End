@@ -1,0 +1,8 @@
+$text-color: red; // Definir uma variável para a cor do texto
+
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: $text-color;
+}
